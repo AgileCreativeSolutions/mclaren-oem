@@ -1,0 +1,408 @@
+/* Font */
+@font-face {
+font-family: "mclaren-bespoke light";
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-light.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-light.woff") format("woff");
+font-weight: 300;
+font-style:normal
+}
+
+@font-face {
+font-family: "mclaren-bespoke regular";
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-regular.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-regular.woff") format("woff");
+font-weight: 400;
+font-style:normal
+}
+
+@font-face {
+font-family: "mclaren-bespoke bold";
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-bold.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-bold.woff") format("woff");
+font-weight: 700;
+font-style:normal
+}
+
+@font-face {
+font-family: "soho-gothic-pro light";
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-light.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-light.woff") format("woff");
+font-weight: 300;
+font-style:normal
+}
+
+@font-face {
+font-family: "soho-gothic-pro regular";
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-regular.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-regular.woff2") format("woff");
+font-weight: 400;
+font-style:normal
+}
+
+@font-face {
+font-family: "soho-gothic-pro medium";
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-medium.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-medium.woff") format("woff");
+font-weight: 500;
+font-style:normal
+}
+
+
+
+.acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
+font-family: "mclaren-bespoke light", sans-serif;
+font-weight: 300;
+line-height: 1.2;
+}
+
+.acs-h1 {
+font-size: 2rem;
+}
+
+.acs-h2 {
+font-size: 1.8rem;
+}
+
+.acs-h3 {
+font-size: 1.6rem;
+}
+
+.acs-h4 {
+font-size: 1.4rem;
+}
+
+.acs-h5 {
+font-size: 1.2rem;
+}
+
+.acs-h6 {
+font-size: 1.1rem;
+}
+
+/* Larger than phablet */
+@media (min-width: 575px) {
+.acs-h1 {
+font-size: 2.5rem;
+}
+
+.acs-h2 {
+font-size: 2.2rem !important;
+}
+
+.acs-h3 {
+font-size: 1.8rem !important;
+}
+
+.acs-h4 {
+font-size: 1.6rem !important;
+}
+
+.acs-h5 {
+font-size: 1.4rem !important;
+}
+
+.acs-h6 {
+font-size: 1.2rem !important;
+}
+}
+
+
+.acs-wrapper { 
+font-family: "soho-gothic-pro light", sans-serif
+}
+
+.acs-bold {
+font-family: var(--bold-font);   
+font-weight: 700;
+}
+
+
+/* Variables */
+.acs-wrapper {
+--accent: #f36d1e;
+--accent2: #F40105;
+--accent3: #db4b1d;
+--accent4: #72DF13;
+--black: #000000; 
+--white: #ffffff; 
+--gray: #78838a; 
+--gray2: #9da8ae;
+--gray3: #EAEEF0;
+--gray4: #D8DEE1;
+--gray5: #F4F6F7;
+--gray6: #c8d0d5;
+--dark: #181C20;
+--dark2: #353E42;
+--dark3: #677279;
+--dark4: #363f44; 
+--dark5: #0F0F11;
+--bold-font: "soho-gothic-pro medium", sans-serif;
+}
+
+
+
+/* Text Colors */
+.acs-gray {
+color: var(--gray)
+}
+.acs-gray2 {
+color: var(--gray2)
+}
+.acs-gray3 {
+color: var(--gray3)
+}
+.acs-gray4 {
+color: var(--gray4)
+}
+.acs-gray5 {
+color: var(--gray5)
+}
+.acs-gray6 {
+color: var(--gray6)
+}
+.acs-dark {
+color: var(--dark)
+}
+.acs-dark2 {
+color: var(--dark2)
+}
+.acs-dark3 {
+color: var(--dark3)
+}
+.acs-dark4 {
+color: var(--dark4)
+}
+.acs-dark5 {
+color: var(--dark5)
+}
+
+/* Accent Colors */
+.acs-accent {
+color: var(--accent)
+}
+.acs-accent2 {
+color: var(--accent2)
+}
+.acs-accent3 {
+color: var(--accent3)
+}
+.acs-accent4 {
+color: var(--accent4)
+}
+
+
+/* BG Colors */
+.acs-bg-accent {
+background-color: var(--accent)
+}
+.acs-bg-accent2 {
+background-color: var(--accent2)
+}
+.acs-bg-accent3 {
+background-color: var(--accent3)
+}
+.acs-bg-accent4 {
+background-color: var(--accent4)
+}
+.acs-bg-gray {
+background-color: var(--gray)
+}
+.acs-bg-gray2 {
+background-color: var(--gray2)
+}
+.acs-bg-gray3 {
+background-color: var(--gray3)
+}
+.acs-bg-gray4 {
+background-color: var(--gray4)
+}
+.acs-bg-gray5 {
+background-color: var(--gray5)
+}
+.acs-bg-gray6 {
+background-color: var(--gray6)
+}
+.acs-bg-dark {
+background-color: var(--dark)
+}
+.acs-bg-dark2 {
+background-color: var(--dark2)
+}
+.acs-bg-dark3 {
+background-color: var(--dark3)
+}
+.acs-bg-dark4 {
+background-color: var(--dark4)
+}
+.acs-bg-dark5 {
+background-color: var(--dark5)
+}
+
+
+
+/* Link Accent */
+.acs-link-accent {
+text-decoration: none;
+color: var(--accent) !important;
+font-family: var(--bold-font);   
+letter-spacing: 0.02em;
+transition: all 0.3s ease-in-out 0s;
+letter-spacing: 2px
+}
+.acs-link-accent:hover {
+color: var(--black) !important; 
+}
+
+
+
+/* BUTTONS: START */
+/* Button 1 */
+.acs-button {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-size: 12px;
+font-weight: 500;
+height: 2.5rem;
+line-height: 10px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: var(--white);
+padding: 0 2rem;
+cursor: pointer;
+text-decoration: none;
+-webkit-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;
+display: inline-flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+background-color: var(--accent);
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+text-align: center;
+}
+.acs-button:hover {
+background-color: var(--accent3);
+color: var(--white);
+}
+
+/* Button 2 */
+.acs-button2 {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-size: 12px;
+font-weight: 500;
+height: 2.5rem;
+line-height: 10px;
+letter-spacing: 2px;
+text-transform: uppercase;
+border: solid 1px var(--gray);
+color: var(--gray2);
+padding: 0 2rem;
+cursor: pointer;
+text-decoration: none;
+-webkit-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;
+display: inline-flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+background-color: transparent;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+text-align: center;
+}
+.acs-button2:hover {
+background-color: transparent;
+color: var(--white);
+border: solid 1px var(--white);
+}
+
+/* Button 3 */
+.acs-button3 {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-size: 12px;
+font-weight: 500;
+height: 2.5rem;
+line-height: 10px;
+letter-spacing: 2px;
+text-transform: uppercase;
+border: solid 1px var(--gray6);
+color: var(--dark4);
+padding: 0 2rem;
+cursor: pointer;
+text-decoration: none;
+-webkit-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;
+display: inline-flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+background-color: transparent;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+text-align: center;
+}
+.acs-button3:hover {
+background-color: transparent;
+color: var(--dark4);
+border: solid 1px var(--dark4);
+}
+
+/* Button 4 */
+.acs-button4 {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-size: 12px;
+font-weight: 500;
+height: 2.5rem;
+line-height: 10px;
+letter-spacing: 2px;
+text-transform: uppercase;
+border: solid 1px var(--white);
+color: var(--white);
+padding: 0 2rem;
+cursor: pointer;
+text-decoration: none;
+-webkit-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;
+display: inline-flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+background-color: transparent;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+text-align: center;
+opacity: .75
+}
+.acs-button4:hover {
+opacity: 1
+}
+
+/* Button 5 */
+.acs-button5 {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-size: 12px;
+font-weight: 500;
+height: 2.5rem;
+line-height: 10px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: var(--dark4);
+padding: 0 2rem;
+cursor: pointer;
+text-decoration: none;
+-webkit-transition: all .1s ease-in-out;
+-o-transition: all .1s ease-in-out;
+transition: all .1s ease-in-out;
+display: inline-flex;
+-webkit-box-align: center;
+-ms-flex-align: center;
+align-items: center;
+background-color: var(--accent4);
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+justify-content: center;
+text-align: center;
+}
+/* BUTTONS: END */
