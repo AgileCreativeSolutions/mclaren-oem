@@ -413,5 +413,6 @@ text-align: center;
 
 /* platform overides */
 div.content-section {
-background: #fff !important
+background: #fff !important;
+-webkit-background: #fff !important;
 }
