@@ -406,3 +406,9 @@ justify-content: center;
 text-align: center;
 }
 /* BUTTONS: END */
+
+
+/* platform overides */
+div.content-section {
+background: #fff !important
+}
