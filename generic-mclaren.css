@@ -416,3 +416,7 @@ div.content-section {
 background: #fff !important;
 -webkit-background: #fff !important;
 }
+
+div.content-section p {
+font-family: "soho-gothic-pro light", sans-serif !important
+}
