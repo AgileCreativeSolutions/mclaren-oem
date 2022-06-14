@@ -136,6 +136,9 @@ font-weight: 700;
 
 
 /* Text Colors */
+.acs-white {
+color: var(--white) !important
+}
 .acs-gray {
 color: var(--gray)
 }
