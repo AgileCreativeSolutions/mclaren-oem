@@ -110,6 +110,35 @@ font-family: var(--bold-font);
 font-weight: 700;
 }
 
+.mb-brand-lt {
+font-family: "mclaren-bespoke light" !important; 
+font-weight: 300 !important;
+}
+
+.mb-brand-rg {
+font-family: "mclaren-bespoke regular" !important;
+font-weight: 400 !important;
+}
+
+.mb-brand-bd {
+font-family: "mclaren-bespoke bold" !important;
+font-weight: 700 !important;
+}
+
+.soho-brand-lt {
+font-family: "soho-gothic-pro regular" !important;
+font-weight: 400 !important;
+}
+
+.soho-brand-rg {
+font-family: "soho-gothic-pro light" !important;
+font-weight: 300 !important;
+}
+
+.soho-brand-md {
+font-family: "soho-gothic-pro medium" !important;
+font-weight: 500 !important;
+}
 
 /* Variables */
 .acs-wrapper {
