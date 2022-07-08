@@ -285,13 +285,13 @@ color: var(--black) !important;
 /* Button 1 */
 .acs-button {
 font-family: "soho-gothic-pro medium", "Arial", sans-serif;
-font-size: 12px;
+font-size: 12px !important;
 font-weight: 500;
 height: 2.5rem;
 line-height: 10px;
 letter-spacing: 2px;
 text-transform: uppercase;
-color: var(--white);
+color: var(--white) !important;
 padding: 0 2rem;
 cursor: pointer;
 text-decoration: none;
@@ -310,20 +310,20 @@ text-align: center;
 }
 .acs-button:hover {
 background-color: var(--accent3);
-color: var(--white);
+color: var(--white) !important;
 }
 
 /* Button 2 */
 .acs-button2 {
 font-family: "soho-gothic-pro medium", "Arial", sans-serif;
-font-size: 12px;
+font-size: 12px !important;
 font-weight: 500;
 height: 2.5rem;
 line-height: 10px;
 letter-spacing: 2px;
 text-transform: uppercase;
 border: solid 1px var(--gray);
-color: var(--gray2);
+color: var(--gray2) !important;
 padding: 0 2rem;
 cursor: pointer;
 text-decoration: none;
@@ -342,21 +342,21 @@ text-align: center;
 }
 .acs-button2:hover {
 background-color: transparent;
-color: var(--white);
+color: var(--white) !important;
 border: solid 1px var(--white);
 }
 
 /* Button 3 */
 .acs-button3 {
 font-family: "soho-gothic-pro medium", "Arial", sans-serif;
-font-size: 12px;
+font-size: 12px !important;
 font-weight: 500;
 height: 2.5rem;
 line-height: 10px;
 letter-spacing: 2px;
 text-transform: uppercase;
 border: solid 1px var(--gray6);
-color: var(--dark4);
+color: var(--dark4) !important;
 padding: 0 2rem;
 cursor: pointer;
 text-decoration: none;
@@ -375,21 +375,21 @@ text-align: center;
 }
 .acs-button3:hover {
 background-color: transparent;
-color: var(--dark4);
+color: var(--dark4) !important;
 border: solid 1px var(--dark4);
 }
 
 /* Button 4 */
 .acs-button4 {
 font-family: "soho-gothic-pro medium", "Arial", sans-serif;
-font-size: 12px;
+font-size: 12px !important;
 font-weight: 500;
 height: 2.5rem;
 line-height: 10px;
 letter-spacing: 2px;
 text-transform: uppercase;
 border: solid 1px var(--white);
-color: var(--white);
+color: var(--white) !important;
 padding: 0 2rem;
 cursor: pointer;
 text-decoration: none;
@@ -420,7 +420,7 @@ height: 2.5rem;
 line-height: 10px;
 letter-spacing: 2px;
 text-transform: uppercase;
-color: var(--dark4);
+color: var(--dark4) !important;
 padding: 0 2rem;
 cursor: pointer;
 text-decoration: none;
