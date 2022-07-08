@@ -309,6 +309,7 @@ justify-content: center;
 text-align: center;
 }
 .acs-button:hover {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 background-color: var(--accent3);
 color: var(--white) !important;
 }
@@ -341,6 +342,7 @@ justify-content: center;
 text-align: center;
 }
 .acs-button2:hover {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 background-color: transparent;
 color: var(--white) !important;
 border: solid 1px var(--white);
@@ -374,6 +376,7 @@ justify-content: center;
 text-align: center;
 }
 .acs-button3:hover {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 background-color: transparent;
 color: var(--dark4) !important;
 border: solid 1px var(--dark4);
@@ -408,6 +411,7 @@ text-align: center;
 opacity: .75
 }
 .acs-button4:hover {
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 opacity: 1
 }
 
