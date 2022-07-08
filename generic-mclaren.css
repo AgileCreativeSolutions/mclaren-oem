@@ -76,7 +76,7 @@ font-size: 1.1rem;
 /* Larger than phablet */
 @media (min-width: 575px) {
 .acs-h1 {
-font-size: 2.5rem;
+font-size: 2.5rem !important
 }
 
 .acs-h2 {
