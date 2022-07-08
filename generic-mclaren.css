@@ -159,7 +159,7 @@ font-weight: 500 !important;
 --dark3: #677279;
 --dark4: #363f44; 
 --dark5: #0F0F11;
---bold-font: "soho-gothic-pro medium", sans-serif;
+--bold-font: "soho-gothic-pro medium", sans-serif !important
 }
 
 
@@ -204,7 +204,7 @@ color: var(--dark5)
 
 /* Accent Colors */
 .acs-accent {
-color: var(--accent)
+color: var(--accent) !important
 }
 .acs-accent2 {
 color: var(--accent2)
