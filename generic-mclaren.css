@@ -284,7 +284,7 @@ color: var(--black) !important;
 /* BUTTONS: START */
 /* Button 1 */
 .acs-button {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 font-size: 12px !important;
 font-weight: 500;
 height: 2.5rem;
@@ -315,7 +315,7 @@ color: var(--white) !important;
 
 /* Button 2 */
 .acs-button2 {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 font-size: 12px !important;
 font-weight: 500;
 height: 2.5rem;
@@ -348,7 +348,7 @@ border: solid 1px var(--white);
 
 /* Button 3 */
 .acs-button3 {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 font-size: 12px !important;
 font-weight: 500;
 height: 2.5rem;
@@ -381,7 +381,7 @@ border: solid 1px var(--dark4);
 
 /* Button 4 */
 .acs-button4 {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 font-size: 12px !important;
 font-weight: 500;
 height: 2.5rem;
@@ -413,7 +413,7 @@ opacity: 1
 
 /* Button 5 */
 .acs-button5 {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif;
+font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
 font-size: 12px;
 font-weight: 500;
 height: 2.5rem;
