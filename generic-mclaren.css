@@ -454,3 +454,8 @@ background: #fff !important;
 div.content-section p {
 font-family: "soho-gothic-pro light", sans-serif
 }
+
+style {
+display: visible !important
+}
+/* platform overides */
