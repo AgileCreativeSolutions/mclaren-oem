@@ -46,7 +46,7 @@ font-style:normal
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: "mclaren-bespoke light", sans-serif !important;
 font-weight: 300;
-line-height: 1.2 !important;
+text-transform: uppercase
 }
 
 .acs-h1 {
@@ -219,49 +219,79 @@ color: var(--accent4)
 
 /* BG Colors */
 .acs-bg-accent {
-background-color: var(--accent)
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(243,109,30, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
-background-color: var(--accent2)
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(244,1,5, var(--acs-bg-opacity))
 }
 .acs-bg-accent3 {
-background-color: var(--accent3)
+--acs-bg-opacity: 1;
+background-color: var(--accent3);
+background-color: rgba(219,75,29, var(--acs-bg-opacity))
 }
 .acs-bg-accent4 {
-background-color: var(--accent4)
+--acs-bg-opacity: 36;
+background-color: var(--accent4);
+background-color: rgba(114,223,19, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
-background-color: var(--gray)
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(120,131,138, var(--acs-bg-opacity))
 }
 .acs-bg-gray2 {
-background-color: var(--gray2)
+--acs-bg-opacity: 1;
+background-color: var(--gray2);
+background-color: rgba(157,168,174, var(--acs-bg-opacity))
 }
 .acs-bg-gray3 {
-background-color: var(--gray3)
+--acs-bg-opacity: 1;
+background-color: var(--gray3);
+background-color: rgba(234,238,240, var(--acs-bg-opacity))
 }
 .acs-bg-gray4 {
-background-color: var(--gray4)
+--acs-bg-opacity: 1;
+background-color: var(--gray4);
+background-color: rgba(216,222,225, var(--acs-bg-opacity))
 }
 .acs-bg-gray5 {
-background-color: var(--gray5)
+--acs-bg-opacity: 1;
+background-color: var(--gray5);
+background-color: rgba(rgb(244,246,247), var(--acs-bg-opacity))
 }
 .acs-bg-gray6 {
-background-color: var(--gray6)
+--acs-bg-opacity: 1;
+background-color: var(--gray6);
+background-color: rgba(200,208,213, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
-background-color: var(--dark)
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(24,28,32, var(--acs-bg-opacity))
 }
 .acs-bg-dark2 {
-background-color: var(--dark2)
+--acs-bg-opacity: 1;
+background-color: var(--dark2);
+background-color: rgba(53,62,66, var(--acs-bg-opacity))
 }
 .acs-bg-dark3 {
-background-color: var(--dark3)
+--acs-bg-opacity: 1;
+background-color: var(--dark3);
+background-color: rgba(103,114,121, var(--acs-bg-opacity))
 }
 .acs-bg-dark4 {
-background-color: var(--dark4)
+--acs-bg-opacity: 1;
+background-color: var(--dark4);
+background-color: rgba(53,63,68, var(--acs-bg-opacity))
 }
 .acs-bg-dark5 {
-background-color: var(--dark5)
+--acs-bg-opacity: 1;
+background-color: var(--dark5);
+background-color: rgba(15,15,17, var(--acs-bg-opacity))
 }
 
 
@@ -277,6 +307,30 @@ letter-spacing: 2px
 }
 .acs-link-accent:hover {
 color: var(--black) !important; 
+}
+
+.acs-link-accent2 {
+text-decoration: none;
+color: var(--dark) !important;
+font-family: var(--bold-font);   
+letter-spacing: 0.02em;
+transition: all 0.3s ease-in-out 0s;
+letter-spacing: 2px
+}
+.acs-link-accent2:hover {
+color: var(--accent) !important; 
+}
+
+.acs-link-accent3 {
+text-decoration: none;
+color: var(--white) !important;
+font-family: var(--bold-font);   
+letter-spacing: 0.02em;
+transition: all 0.3s ease-in-out 0s;
+letter-spacing: 2px
+}
+.acs-link-accent3:hover {
+opacity: .7 !important; 
 }
 
 
