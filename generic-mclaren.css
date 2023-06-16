@@ -275,7 +275,7 @@ background-color: rgba(216,222,225, var(--acs-bg-opacity))
 .acs-bg-gray5 {
 --acs-bg-opacity: 1;
 background-color: var(--gray5);
-background-color: rgba(rgb(244,246,247), var(--acs-bg-opacity))
+background-color: rgba(244,246,247, var(--acs-bg-opacity))
 }
 .acs-bg-gray6 {
 --acs-bg-opacity: 1;
