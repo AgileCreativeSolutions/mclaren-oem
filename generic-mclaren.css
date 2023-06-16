@@ -312,7 +312,7 @@ background-color: rgba(15,15,17, var(--acs-bg-opacity))
 
 /* Link Accent */
 .acs-link-accent {
-text-decoration: none;
+text-decoration: none !important;
 color: var(--accent) !important;
 font-family: var(--bold-font);   
 letter-spacing: 0.02em;
@@ -324,7 +324,7 @@ color: var(--black) !important;
 }
 
 .acs-link-accent2 {
-text-decoration: none;
+text-decoration: none !important;
 color: var(--dark) !important;
 font-family: var(--bold-font);   
 letter-spacing: 0.02em;
@@ -336,7 +336,7 @@ color: var(--accent) !important;
 }
 
 .acs-link-accent3 {
-text-decoration: none;
+text-decoration: none !important;
 color: var(--white) !important;
 font-family: var(--bold-font);   
 letter-spacing: 0.02em;
@@ -362,7 +362,7 @@ text-transform: uppercase;
 color: var(--white) !important;
 padding: 0 2rem;
 cursor: pointer;
-text-decoration: none;
+text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
 -o-transition: all .1s ease-in-out;
 transition: all .1s ease-in-out;
@@ -395,7 +395,7 @@ border: solid 1px var(--gray);
 color: var(--gray2) !important;
 padding: 0 2rem;
 cursor: pointer;
-text-decoration: none;
+text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
 -o-transition: all .1s ease-in-out;
 transition: all .1s ease-in-out;
@@ -429,7 +429,7 @@ border: solid 1px var(--gray6);
 color: var(--dark4) !important;
 padding: 0 2rem;
 cursor: pointer;
-text-decoration: none;
+text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
 -o-transition: all .1s ease-in-out;
 transition: all .1s ease-in-out;
@@ -463,7 +463,7 @@ border: solid 1px var(--white);
 color: var(--white) !important;
 padding: 0 2rem;
 cursor: pointer;
-text-decoration: none;
+text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
 -o-transition: all .1s ease-in-out;
 transition: all .1s ease-in-out;
@@ -495,7 +495,7 @@ text-transform: uppercase;
 color: var(--dark4) !important;
 padding: 0 2rem;
 cursor: pointer;
-text-decoration: none;
+text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
 -o-transition: all .1s ease-in-out;
 transition: all .1s ease-in-out;
