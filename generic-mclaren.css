@@ -1,4 +1,4 @@
-/* Font */
+/* OEM Font Embed */
 @font-face {
 font-family: "mclaren-bespoke light";
 src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-light.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-light.woff") format("woff");
@@ -40,12 +40,24 @@ src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic
 font-weight: 500;
 font-style:normal
 }
+/* OEM Font Embed */
 
 
 
+/* OEM Font */
+.acs-wrapper, .acs-oem-brand { 
+font-family: "soho-gothic-pro light", sans-serif !important
+font-weight: 400;
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: "mclaren-bespoke light", sans-serif !important;
 font-weight: 300;
+line-height: 1.2;
 text-transform: uppercase
 }
 
@@ -99,12 +111,10 @@ font-size: 1.4rem !important;
 font-size: 1.2rem !important;
 }
 }
+/* Heading Tags */
 
 
-.acs-wrapper { 
-font-family: "soho-gothic-pro light", sans-serif !important
-}
-
+/* OEM Font Variables */
 .acs-bold {
 font-family: var(--bold-font);   
 font-weight: 700;
@@ -139,6 +149,9 @@ font-weight: 300 !important;
 font-family: "soho-gothic-pro medium" !important;
 font-weight: 500 !important;
 }
+/* OEM Font Variables */
+
+
 
 /* Variables */
 .acs-wrapper {
@@ -161,6 +174,7 @@ font-weight: 500 !important;
 --dark5: #0F0F11;
 --bold-font: "soho-gothic-pro medium", sans-serif !important
 }
+/* Variables */
 
 
 
