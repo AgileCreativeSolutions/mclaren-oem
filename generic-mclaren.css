@@ -1,44 +1,51 @@
 /* OEM Font Embed */
+/* McLaren Sans (2026 brand). Legacy family names kept so existing references keep working. */
 @font-face {
 font-family: "mclaren-bespoke light";
-src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-light.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-light.woff") format("woff");
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/McLarenSansDisplay-Light.woff2") format("woff2");
 font-weight: 300;
-font-style:normal
+font-style: normal;
+font-display: swap
 }
 
 @font-face {
 font-family: "mclaren-bespoke regular";
-src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-regular.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-regular.woff") format("woff");
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/McLarenSansDisplay-Regular.woff2") format("woff2");
 font-weight: 400;
-font-style:normal
+font-style: normal;
+font-display: swap
 }
 
 @font-face {
 font-family: "mclaren-bespoke bold";
-src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-bold.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/mclaren-bespoke-bold.woff") format("woff");
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/McLarenSansText-Bold.woff2") format("woff2");
 font-weight: 700;
-font-style:normal
+font-style: normal;
+font-display: swap
 }
 
 @font-face {
 font-family: "soho-gothic-pro light";
-src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-light.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-light.woff") format("woff");
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/McLarenSansText-Regular.woff2") format("woff2");
 font-weight: 300;
-font-style:normal
+font-style: normal;
+font-display: swap
 }
 
 @font-face {
 font-family: "soho-gothic-pro regular";
-src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-regular.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-regular.woff2") format("woff");
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/McLarenSansText-Regular.woff2") format("woff2");
 font-weight: 400;
-font-style:normal
+font-style: normal;
+font-display: swap
 }
 
 @font-face {
 font-family: "soho-gothic-pro medium";
-src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-medium.woff2") format("woff2"), url("https://agilecreativesolutions.github.io/McLarenBrandFonts/soho-gothic-pro-medium.woff") format("woff");
+src: url("https://agilecreativesolutions.github.io/McLarenBrandFonts/McLarenSansText-Bold.woff2") format("woff2");
 font-weight: 500;
-font-style:normal
+font-style: normal;
+font-display: swap
 }
 /* OEM Font Embed */
 
@@ -48,67 +55,128 @@ font-style:normal
 .acs-wrapper, .acs-oem-brand { 
 font-family: "soho-gothic-pro light", sans-serif !important;
 font-weight: 300;
+font-size: 0.875rem; /* 14px */
+line-height: 1.5714; /* 22px */
+}
+
+@media (min-width: 768px) {
+.acs-wrapper, .acs-oem-brand {
+font-size: 1rem; /* 16px */
+line-height: 1.5; /* 24px */
+}
 }
 /* OEM Font */
 
 
 
 /* Heading Tags */
+/* Sizes from McLaren's 2026 type tokens: mobile / tablet (575px+) / desktop (768px+) */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: "mclaren-bespoke light", sans-serif !important;
 font-weight: 300;
-line-height: 1.2;
+letter-spacing: 0;
 text-transform: uppercase
 }
 
+/* H1 and H2 use Display Regular */
+.acs-h1, .acs-h2 {
+font-family: "mclaren-bespoke regular", sans-serif !important;
+font-weight: 400;
+}
+
 .acs-h1 {
-font-size: 2rem;
+font-size: 1.375rem; /* 22px */
+line-height: 1.1818; /* 26px */
 }
 
 .acs-h2 {
-font-size: 1.8rem;
+font-size: 1.125rem; /* 18px */
+line-height: 1.2222; /* 22px */
 }
 
 .acs-h3 {
-font-size: 1.6rem;
+font-size: 1rem; /* 16px */
+line-height: 1.25; /* 20px */
 }
 
 .acs-h4 {
-font-size: 1.4rem;
+font-size: 0.875rem; /* 14px */
+line-height: 1.4286; /* 20px */
 }
 
 .acs-h5 {
-font-size: 1.2rem;
+font-size: 0.75rem; /* 12px */
+line-height: 1.3333; /* 16px */
 }
 
 .acs-h6 {
-font-size: 1.1rem;
+font-size: 0.625rem; /* 10px */
+line-height: 1.6; /* 16px */
 }
 
-/* Larger than phablet */
+/* Tablet */
 @media (min-width: 575px) {
 .acs-h1 {
-font-size: 2.5rem !important
+font-size: 1.5rem !important; /* 24px */
+line-height: 1.1667 !important; /* 28px */
 }
 
 .acs-h2 {
-font-size: 2.2rem !important;
+font-size: 1.125rem !important; /* 18px */
+line-height: 1.2222 !important; /* 22px */
 }
 
 .acs-h3 {
-font-size: 1.8rem !important;
+font-size: 1rem !important; /* 16px */
+line-height: 1.25 !important; /* 20px */
 }
 
 .acs-h4 {
-font-size: 1.6rem !important;
+font-size: 0.875rem !important; /* 14px */
+line-height: 1.4286 !important; /* 20px */
 }
 
 .acs-h5 {
-font-size: 1.4rem !important;
+font-size: 0.75rem !important; /* 12px */
+line-height: 1.3333 !important; /* 16px */
 }
 
 .acs-h6 {
-font-size: 1.2rem !important;
+font-size: 0.625rem !important; /* 10px */
+line-height: 1.6 !important; /* 16px */
+}
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+.acs-h1 {
+font-size: 2rem !important; /* 32px */
+line-height: 1.125 !important; /* 36px */
+}
+
+.acs-h2 {
+font-size: 1.5rem !important; /* 24px */
+line-height: 1.1667 !important; /* 28px */
+}
+
+.acs-h3 {
+font-size: 1.25rem !important; /* 20px */
+line-height: 1.2 !important; /* 24px */
+}
+
+.acs-h4 {
+font-size: 1rem !important; /* 16px */
+line-height: 1.5 !important; /* 24px */
+}
+
+.acs-h5 {
+font-size: 0.875rem !important; /* 14px */
+line-height: 1.2857 !important; /* 18px */
+}
+
+.acs-h6 {
+font-size: 0.75rem !important; /* 12px */
+line-height: 1.3333 !important; /* 16px */
 }
 }
 /* Heading Tags */
@@ -155,23 +223,23 @@ font-weight: 500 !important;
 
 /* Variables */
 .acs-wrapper, .acs-oem-brand {
---accent: #f36d1e;
---accent2: #F40105;
---accent3: #db4b1d;
---accent4: #72DF13;
+--accent: #FF8000; /* Papaya */
+--accent2: #A5320A; /* Ember */
+--accent3: #A5320A; /* Ember */
+--accent4: #FF8000; /* Papaya */
 --black: #000000; 
 --white: #ffffff; 
---gray: #78838a; 
---gray2: #9da8ae;
---gray3: #EAEEF0;
---gray4: #D8DEE1;
---gray5: #F4F6F7;
---gray6: #c8d0d5;
---dark: #181C20;
---dark2: #353E42;
---dark3: #677279;
---dark4: #363f44; 
---dark5: #0F0F11;
+--gray: #53565A; /* Anthracite */ 
+--gray2: #53565A; /* Anthracite */
+--gray3: #DCDAD4; /* Colnbrook */
+--gray4: #DCDAD4; /* Colnbrook */
+--gray5: #F0F0F0; /* Mist */
+--gray6: #DCDAD4; /* Colnbrook */
+--dark: #050F23; /* Midnight */
+--dark2: #53565A; /* Anthracite */
+--dark3: #53565A; /* Anthracite */
+--dark4: #53565A; /* Anthracite */ 
+--dark5: #000000; /* Black */
 --bold-font: "soho-gothic-pro medium", sans-serif !important
 }
 /* Variables */
@@ -235,132 +303,153 @@ color: var(--accent4)
 .acs-bg-accent {
 --acs-bg-opacity: 1;
 background-color: var(--accent);
-background-color: rgba(243,109,30, var(--acs-bg-opacity))
+background-color: rgba(255,128,0, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
 --acs-bg-opacity: 1;
 background-color: var(--accent2);
-background-color: rgba(244,1,5, var(--acs-bg-opacity))
+background-color: rgba(165,50,10, var(--acs-bg-opacity))
 }
 .acs-bg-accent3 {
 --acs-bg-opacity: 1;
 background-color: var(--accent3);
-background-color: rgba(219,75,29, var(--acs-bg-opacity))
+background-color: rgba(165,50,10, var(--acs-bg-opacity))
 }
 .acs-bg-accent4 {
 --acs-bg-opacity: 36;
 background-color: var(--accent4);
-background-color: rgba(114,223,19, var(--acs-bg-opacity))
+background-color: rgba(255,128,0, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
 --acs-bg-opacity: 1;
 background-color: var(--gray);
-background-color: rgba(120,131,138, var(--acs-bg-opacity))
+background-color: rgba(83,86,90, var(--acs-bg-opacity))
 }
 .acs-bg-gray2 {
 --acs-bg-opacity: 1;
 background-color: var(--gray2);
-background-color: rgba(157,168,174, var(--acs-bg-opacity))
+background-color: rgba(83,86,90, var(--acs-bg-opacity))
 }
 .acs-bg-gray3 {
 --acs-bg-opacity: 1;
 background-color: var(--gray3);
-background-color: rgba(234,238,240, var(--acs-bg-opacity))
+background-color: rgba(220,218,212, var(--acs-bg-opacity))
 }
 .acs-bg-gray4 {
 --acs-bg-opacity: 1;
 background-color: var(--gray4);
-background-color: rgba(216,222,225, var(--acs-bg-opacity))
+background-color: rgba(220,218,212, var(--acs-bg-opacity))
 }
 .acs-bg-gray5 {
 --acs-bg-opacity: 1;
 background-color: var(--gray5);
-background-color: rgba(244,246,247, var(--acs-bg-opacity))
+background-color: rgba(240,240,240, var(--acs-bg-opacity))
 }
 .acs-bg-gray6 {
 --acs-bg-opacity: 1;
 background-color: var(--gray6);
-background-color: rgba(200,208,213, var(--acs-bg-opacity))
+background-color: rgba(220,218,212, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
 --acs-bg-opacity: 1;
 background-color: var(--dark);
-background-color: rgba(24,28,32, var(--acs-bg-opacity))
+background-color: rgba(5,15,35, var(--acs-bg-opacity))
 }
 .acs-bg-dark2 {
 --acs-bg-opacity: 1;
 background-color: var(--dark2);
-background-color: rgba(53,62,66, var(--acs-bg-opacity))
+background-color: rgba(83,86,90, var(--acs-bg-opacity))
 }
 .acs-bg-dark3 {
 --acs-bg-opacity: 1;
 background-color: var(--dark3);
-background-color: rgba(103,114,121, var(--acs-bg-opacity))
+background-color: rgba(83,86,90, var(--acs-bg-opacity))
 }
 .acs-bg-dark4 {
 --acs-bg-opacity: 1;
 background-color: var(--dark4);
-background-color: rgba(53,63,68, var(--acs-bg-opacity))
+background-color: rgba(83,86,90, var(--acs-bg-opacity))
 }
 .acs-bg-dark5 {
 --acs-bg-opacity: 1;
 background-color: var(--dark5);
-background-color: rgba(15,15,17, var(--acs-bg-opacity))
+background-color: rgba(0,0,0, var(--acs-bg-opacity))
 }
 
 
 
 /* Link Accent */
+/* Black uppercase link with chevron; Papaya underline draws left to right on hover */
 .acs-link-accent {
+display: inline-block;
 text-decoration: none !important;
-color: var(--accent) !important;
-font-family: var(--bold-font);   
-letter-spacing: 0.02em;
-transition: all 0.3s ease-in-out 0s;
-letter-spacing: 2px
+color: var(--black) !important;
+font-family: "mclaren-bespoke regular", sans-serif !important;
+font-weight: 400;
+font-size: 12px !important;
+text-transform: uppercase;
+letter-spacing: 0;
+padding-bottom: 2px;
+background-image: linear-gradient(var(--accent), var(--accent));
+background-repeat: no-repeat;
+background-position: 0 100%;
+background-size: 0% 1px;
+transition: background-size 0.6s ease-in-out;
+}
+.acs-link-accent::after {
+content: "\203A";
+display: inline-block;
+margin-left: 0.6em;
 }
 .acs-link-accent:hover {
-color: var(--black) !important; 
+color: var(--black) !important;
+background-size: 100% 1px;
 }
 
+/* White version of .acs-link-accent for dark backgrounds */
 .acs-link-accent2 {
-text-decoration: none !important;
-color: var(--dark) !important;
-font-family: var(--bold-font);   
-letter-spacing: 0.02em;
-transition: all 0.3s ease-in-out 0s;
-letter-spacing: 2px
-}
-.acs-link-accent2:hover {
-color: var(--accent) !important; 
-}
-
-.acs-link-accent3 {
+display: inline-block;
 text-decoration: none !important;
 color: var(--white) !important;
-font-family: var(--bold-font);   
-letter-spacing: 0.02em;
-transition: all 0.3s ease-in-out 0s;
-letter-spacing: 2px
+font-family: "mclaren-bespoke regular", sans-serif !important;
+font-weight: 400;
+font-size: 12px !important;
+text-transform: uppercase;
+letter-spacing: 0;
+padding-bottom: 2px;
+background-image: linear-gradient(var(--accent), var(--accent));
+background-repeat: no-repeat;
+background-position: 0 100%;
+background-size: 0% 1px;
+transition: background-size 0.6s ease-in-out;
 }
-.acs-link-accent3:hover {
-opacity: .7 !important; 
+.acs-link-accent2::after {
+content: "\203A";
+display: inline-block;
+margin-left: 0.6em;
+}
+.acs-link-accent2:hover {
+color: var(--white) !important;
+background-size: 100% 1px;
 }
 
 
 
 /* BUTTONS: START */
-/* Button 1 */
+/* All buttons hover to Papaya with black text */
+/* Button 1: Black fill, white text */
 .acs-button {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-font-size: 12px !important;
-font-weight: 500;
-height: 2.5rem;
-line-height: 10px;
-letter-spacing: 2px;
+font-family: "mclaren-bespoke regular", "Arial", sans-serif !important;
+font-size: 10px !important;
+font-weight: 400;
+height: 2.25rem; /* 36px */
+min-width: 96px;
+line-height: 12px;
+letter-spacing: 0;
 text-transform: uppercase;
-color: var(--white) !important;
-padding: 0 2rem;
+padding: 0 20px;
+border: none;
+border-radius: 0;
 cursor: pointer;
 text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
@@ -370,30 +459,31 @@ display: inline-flex;
 -webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
-background-color: var(--accent);
 -webkit-box-pack: center;
 -ms-flex-pack: center;
 justify-content: center;
 text-align: center;
+background-color: #000000;
+color: var(--white) !important;
 }
 .acs-button:hover {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-background-color: var(--accent3);
-color: var(--white) !important;
+background-color: var(--accent);
+color: var(--black) !important;
 }
 
-/* Button 2 */
+/* Button 2: White fill, black text (dark backgrounds) */
 .acs-button2 {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-font-size: 12px !important;
-font-weight: 500;
-height: 2.5rem;
-line-height: 10px;
-letter-spacing: 2px;
+font-family: "mclaren-bespoke regular", "Arial", sans-serif !important;
+font-size: 10px !important;
+font-weight: 400;
+height: 2.25rem; /* 36px */
+min-width: 96px;
+line-height: 12px;
+letter-spacing: 0;
 text-transform: uppercase;
-border: solid 1px var(--gray);
-color: var(--gray2) !important;
-padding: 0 2rem;
+padding: 0 20px;
+border: none;
+border-radius: 0;
 cursor: pointer;
 text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
@@ -403,31 +493,31 @@ display: inline-flex;
 -webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
-background-color: transparent;
 -webkit-box-pack: center;
 -ms-flex-pack: center;
 justify-content: center;
 text-align: center;
+background-color: #ffffff;
+color: var(--black) !important;
 }
 .acs-button2:hover {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-background-color: transparent;
-color: var(--white) !important;
-border: solid 1px var(--white);
+background-color: var(--accent);
+color: var(--black) !important;
 }
 
-/* Button 3 */
+/* Button 3: Translucent gray, black text (light backgrounds) */
 .acs-button3 {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-font-size: 12px !important;
-font-weight: 500;
-height: 2.5rem;
-line-height: 10px;
-letter-spacing: 2px;
+font-family: "mclaren-bespoke regular", "Arial", sans-serif !important;
+font-size: 10px !important;
+font-weight: 400;
+height: 2.25rem; /* 36px */
+min-width: 96px;
+line-height: 12px;
+letter-spacing: 0;
 text-transform: uppercase;
-border: solid 1px var(--gray6);
-color: var(--dark4) !important;
-padding: 0 2rem;
+padding: 0 20px;
+border: none;
+border-radius: 0;
 cursor: pointer;
 text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
@@ -437,31 +527,31 @@ display: inline-flex;
 -webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
-background-color: transparent;
 -webkit-box-pack: center;
 -ms-flex-pack: center;
 justify-content: center;
 text-align: center;
+background-color: rgba(0,0,0,.1);
+color: var(--black) !important;
 }
 .acs-button3:hover {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-background-color: transparent;
-color: var(--dark4) !important;
-border: solid 1px var(--dark4);
+background-color: var(--accent);
+color: var(--black) !important;
 }
 
-/* Button 4 */
+/* Button 4: Translucent gray, white text (dark backgrounds) */
 .acs-button4 {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-font-size: 12px !important;
-font-weight: 500;
-height: 2.5rem;
-line-height: 10px;
-letter-spacing: 2px;
+font-family: "mclaren-bespoke regular", "Arial", sans-serif !important;
+font-size: 10px !important;
+font-weight: 400;
+height: 2.25rem; /* 36px */
+min-width: 96px;
+line-height: 12px;
+letter-spacing: 0;
 text-transform: uppercase;
-border: solid 1px var(--white);
-color: var(--white) !important;
-padding: 0 2rem;
+padding: 0 20px;
+border: none;
+border-radius: 0;
 cursor: pointer;
 text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
@@ -471,29 +561,31 @@ display: inline-flex;
 -webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
-background-color: transparent;
 -webkit-box-pack: center;
 -ms-flex-pack: center;
 justify-content: center;
 text-align: center;
-opacity: .75
+background-color: rgba(255,255,255,.2);
+color: var(--white) !important;
 }
 .acs-button4:hover {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-opacity: 1
+background-color: var(--accent);
+color: var(--black) !important;
 }
 
-/* Button 5 */
+/* Button 5: Papaya fill, black text */
 .acs-button5 {
-font-family: "soho-gothic-pro medium", "Arial", sans-serif !important;
-font-size: 12px;
-font-weight: 500;
-height: 2.5rem;
-line-height: 10px;
-letter-spacing: 2px;
+font-family: "mclaren-bespoke regular", "Arial", sans-serif !important;
+font-size: 10px !important;
+font-weight: 400;
+height: 2.25rem; /* 36px */
+min-width: 96px;
+line-height: 12px;
+letter-spacing: 0;
 text-transform: uppercase;
-color: var(--dark4) !important;
-padding: 0 2rem;
+padding: 0 20px;
+border: none;
+border-radius: 0;
 cursor: pointer;
 text-decoration: none !important;
 -webkit-transition: all .1s ease-in-out;
@@ -503,11 +595,26 @@ display: inline-flex;
 -webkit-box-align: center;
 -ms-flex-align: center;
 align-items: center;
-background-color: var(--accent4);
 -webkit-box-pack: center;
 -ms-flex-pack: center;
 justify-content: center;
 text-align: center;
+background-color: var(--accent);
+color: var(--black) !important;
+}
+.acs-button5:hover {
+background-color: var(--accent);
+color: var(--black) !important;
+}
+
+/* Desktop button size */
+@media (min-width: 768px) {
+.acs-button, .acs-button2, .acs-button3, .acs-button4, .acs-button5 {
+font-size: 12px !important;
+line-height: 14px;
+height: 2.875rem; /* 46px */
+min-width: 112px;
+}
 }
 /* BUTTONS: END */
 
