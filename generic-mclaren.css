@@ -282,6 +282,12 @@ color: var(--dark5)
 }
 
 /* BG Colors */
+/* bg-accent is Anthracite (not Papaya) */
+.acs-bg-accent {
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(83,86,90, var(--acs-bg-opacity))
+}
 .acs-bg-gray {
 --acs-bg-opacity: 1;
 background-color: var(--gray);
