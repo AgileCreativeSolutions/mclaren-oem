@@ -223,10 +223,7 @@ font-weight: 500 !important;
 
 /* Variables */
 .acs-wrapper, .acs-oem-brand {
---accent: #FF8000; /* Papaya */
---accent2: #A5320A; /* Ember */
---accent3: #A5320A; /* Ember */
---accent4: #FF8000; /* Papaya */
+--accent: #FF8000; /* Papaya: used for button hovers, button 5, and link underlines */
 --black: #000000; 
 --white: #ffffff; 
 --gray: #53565A; /* Anthracite */ 
@@ -284,42 +281,7 @@ color: var(--dark4)
 color: var(--dark5)
 }
 
-/* Accent Colors */
-.acs-accent {
-color: var(--accent) !important
-}
-.acs-accent2 {
-color: var(--accent2)
-}
-.acs-accent3 {
-color: var(--accent3)
-}
-.acs-accent4 {
-color: var(--accent4)
-}
-
-
 /* BG Colors */
-.acs-bg-accent {
---acs-bg-opacity: 1;
-background-color: var(--accent);
-background-color: rgba(255,128,0, var(--acs-bg-opacity))
-}
-.acs-bg-accent2 {
---acs-bg-opacity: 1;
-background-color: var(--accent2);
-background-color: rgba(165,50,10, var(--acs-bg-opacity))
-}
-.acs-bg-accent3 {
---acs-bg-opacity: 1;
-background-color: var(--accent3);
-background-color: rgba(165,50,10, var(--acs-bg-opacity))
-}
-.acs-bg-accent4 {
---acs-bg-opacity: 36;
-background-color: var(--accent4);
-background-color: rgba(255,128,0, var(--acs-bg-opacity))
-}
 .acs-bg-gray {
 --acs-bg-opacity: 1;
 background-color: var(--gray);
